@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História nas Estrelas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                ❤️ Nossa História
+            </a>
+            <nav id="nav">
+                <a href="#" data-page="home" class="nav-link active">Início</a>
+                <a href="#" data-page="timeline" class="nav-link">Nossa História</a>
+                <a href="#" data-page="gallery" class="nav-link">Galeria</a>
+                <a href="#" data-page="testimonials" class="nav-link">Depoimentos</a>
+                
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <div class="page active" id="home">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-icon">💜</div>
+                    <h1>Nossa História</h1>
+                    <h2>Escrita nas Estrelas</h2>
+                    <p>Nosso namoro vai virar um grande casamento e vamos viajar o mundo, esse é só o começo da nossa história. Vamos relembrar um pouco, minha princesa?</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="navigateTo('timeline')">❤️ Nossa História</button>
+                        <button class="btn btn-secondary" onclick="navigateTo('gallery')">✨ Galeria</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline Page -->
+        <div class="page" id="timeline">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Nossa Linha do Tempo</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 3rem;">Cada momento que vivemos juntos é uma constelação em nosso universo particular</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> 15 de maio de 2025</div>
+                                <div class="timeline-title">Seu aniversário</div>
+                                <div class="timeline-description">ffoi a primeira vez que a gente se abraçou, tirou fotos juntos e ali realmente foi nosso "começo".</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> 31 de maio de 2025</div>
+                                <div class="timeline-title">Nosso Primeiro Encontro</div>
+                                <div class="timeline-description">Um dos dois mais felizes da minha vida, a primeira de muitas vezes que a gente saiu juntosss pro benficaaa.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">1 de novembro de 2025</div>
+                                <div class="timeline-title">a primeira vez que fui na sua casa</div>
+                                <div class="timeline-description"> tava tão nervoso mas foi tão bom ficar perto de você sem toda aquela gente, só a nois dois abraçados e fazendo nossas fantasias pro Halloween.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">4 de novembro de 2025</div>
+                                <div class="timeline-title">nosso primeiro Halloween juntos</div>
+                                <div class="timeline-description">foi taoooo divertido esse dia, a gente fantasiado de casal com as fantasias que demoraram pra fazer e que ficaram incríveis, tenho até hoje essa fantasia.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">❤️</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2 de março de 2026s</div>
+                                <div class="timeline-title">A praia inesperada</div>
+                                <div class="timeline-description">nesse dia te fiz ir com roupa de shopping pra praia porque não te avisei mas eu comprei o seu biquíni lá e a gente aproveitou bastante, a primeira vez que a gente foi na praia/pscina/clube.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot">⭐</div>
+                            <div class="timeline-content">
+                                <div class="timeline-date"> 15 de março de 2026</div>
+                                <div class="timeline-title">Seu aniversário part2</div>
+                                <div class="timeline-description">fui na sua casa nesse dia e a gente ficou jogando resident e assistindo, eu lembro que tava com tanta saudade de você que fui mesmo doente. Não podia deixar de te ver no seu dia especial né, minha ediro.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(147, 51, 234, 0.2); border-radius: 1rem; padding: 2rem;">
+                        <p style="color: #e0d5ff; font-size: 1.125rem; margin-bottom: 1rem;">E a história continua... cada dia é um novo capítulo em nossa jornada.</p>
+                        <div style="display: flex; justify-content: center; gap: 0.5rem;">
+                            <span style="font-size: 1.5rem;">❤️</span>
+                            <span style="font-size: 1.5rem;">⭐</span>
+                            <span style="font-size: 1.5rem;">❤️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Page -->
+        <div class="page" id="gallery">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Galeria de Memórias</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 2rem;">Cada foto é um momento congelado no tempo, um fragmento de nosso amor infinito</p>
+                    
+                    <div class="gallery-filters">
+                        <button class="filter-btn active" onclick="filterGallery('all')">Todos</button>
+                        <button class="filter-btn" onclick="filterGallery('moments')">Momentos</button>
+                        <button class="filter-btn" onclick="filterGallery('travels')">Meu Amor</button>
+                    </div>
+
+                    <div class="gallery-grid" id="galleryGrid">
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto1.jpeg" alt="seu primeiro aniversário">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">seu primeiro aniversário</div>
+                                <div class="gallery-description"> esse dia foi incrível, lembro até hoje que quase não chegava na escola comprando o último presente.</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="travels" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto2.jpeg" alt="Viagem Mágica">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">paparazi</div>
+                                <div class="gallery-description"> o pessoal é tão fã nosso que tiram até fotos sem a gente saber.</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto3.jpeg" alt="Noite Estrelada">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Primeiro Role</div>
+                                <div class="gallery-description">você tava taooooo linda nesse dia (ainda tá, garota lindaaa meu Deusss) fiquei tão feliz de sair com você</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="travels" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto4.jpeg" alt="Aventura Urbana">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">pós catapora</div>
+                                <div class="gallery-description">tinha acabado de sair de uma quase morte e tava morrendo de saudade de você</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="moments" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto5.jpeg" alt="Abraço Especial">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Nosso filho </div>
+                                <div class="gallery-description">nosso filho que morreu tão jovem 😞🙌</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="travels" onclick="openModal(this)">
+                            <img src="FOTOAS DO FILHO DA PUTA/foto6.jpeg" alt="Praia do Amor">
+                            <div class="gallery-overlay">
+                                <div class="gallery-title">Rozidoo</div>
+                                <div class="gallery-description">esse dia foi bom, comemos bastante, você tinha que ter comido o sushi.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Page -->
+        <div class="page" id="testimonials">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Palavras do Coração</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 3rem;">Mensagens sinceras que expressam todo meu amor</p>
+                    
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Você é minha maior riqueza meu amor, você é a razão da minha vida que melhora tudo quando está perto ou até mesmo longe. Só de eu estar conversando com você meu dia melhora</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Você não é só a melhor namorada do mundo, minha futura esposa é mãe da nossa filha, mas também é minha companheira e minha melhor amiga, a mulher que eu quero ao meu lado todos os dias.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Cada momento com você é único minha princesa. Você me fez ser melhor e eu sempre quero ser o melhor pra você pra sempre cuidar de você e ser seu apoio</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Quando você chegou você mudouuu tudo, mas não pra pior e sim pra melhor, você alegrou meus dias e me deu a maior razão de todaaas na minha vida, você é meu maior amor.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Prometo amar você sempre, em qualquer lugar, com ou sem atmosfera, na constelação orion ou até mesmo na lua Io, prometo te amar até no calor de Vênus ou no frio congelante de Netuno. O universo até fica pequeno comparado ao meu amor por você minha gatinha.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">"</div>
+                            <div class="testimonial-text">Você é meu maior orgulho e também minha maior inspiração como pessoa, por ser tão forte inteligente e determinada. Eu tenho tanto orgulho de te chamar de minha princesa, meu bem ou até mesmo minha ediro.</div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">João</div>
+                                <div class="testimonial-rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem; background: linear-gradient(to right, rgba(168, 85, 247, 0.1), rgba(217, 70, 239, 0.1)); border: 1px solid rgba(147, 51, 234, 0.3); border-radius: 1rem; padding: 2rem;">
+                        <h2 style="font-size: 1.75rem; color: #d8b4fe; margin-bottom: 1rem;">Palavras do Coração</h2>
+                        <p style="color: #e0d5ff; line-height: 1.6; margin-bottom: 1rem;">Oi, minha princesa. Já faz um ano que a gente tá junto, e parece que foi ontem que a gente tava com vergonha um do outro, eu principalmente né? Mas enfim, já se passou um ano desde que tudo começou, e esse vai ser só o primeiro de muitos que ainda tão por vir.
+
+Daqui a alguns anos, a gente vai tá viajando pro Canadá, Londres e Paris pra comemorar nosso aniversário de casados, junto com nossos 3 gatos e o furão.
+
+Sinceramente, eu não tenho nem palavras pra descrever o quão incrível você é e o quanto é importante pra mim. Eu sou capaz de fazer qualquer coisa pra te ver feliz e colocar um sorriso no seu rosto. Você é a pessoa que entrou na minha vida, e eu tenho certeza de que vai ficar até o final dela.
+
+Eu não me arrependo de nada, porque todas as escolhas que eu fiz, erradas ou certas, me trouxeram até você, e eu sou grato por isso. A vida me recompensou com o melhor presente que eu poderia ter ganhado, o maior ouro e o maior tesouro: você.
+
+Amar você é a melhor coisa da minha vida. É tão leve e gostoso ter você ao meu lado. A sensação de conforto que você me transmite, de poder falar qualquer coisa, de te abraçar pra me sentir melhor quando eu estiver mal, é tão bom saber que você vai tá lá por mim, e eu também vou estar lá por você, independente da situação.
+
+Eu não saio do seu lado e nunca vou deixar de te proteger, porque você é tudo pra mim. Você é meu mundo, você é a minha paz.
+
+Nunca vamos nos perder. Eu te amo, minha princesa, minha ediro, meu bem, meu amor, minha fofinha.
+
+Obs.: tô escrevendo isso de madrugada enquanto você tá dormindo na call kkkkkk. Te amo, meu amor.💙💙💙💙💙</p>
+                        <div style="display: flex; justify-content: center; gap: 1rem;">
+                            <span style="font-size: 2rem;">💕</span>
+                            <span style="font-size: 2rem;">✨</span>
+                            <span style="font-size: 2rem;">🌟</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="page" id="contact">
+            <div class="container">
+                <div class="timeline-section">
+                    <h1 class="section-title">Entre em Contato</h1>
+                    <p style="text-align: center; color: #e0d5ff; margin-bottom: 2rem;">Queremos ouvir de você! Deixe uma mensagem ou sugestão.</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-title">Email</div>
+                            <div class="contact-value">contato@nossahistoria.com</div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-title">Telefone</div>
+                            <div class="contact-value">(11) 9 9999-9999</div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-title">Localização</div>
+                            <div class="contact-value">São Paulo, Brasil</div>
+                        </div>
+                    </div>
+
+                    <div class="form-container">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" placeholder="Deixe sua mensagem aqui..." required></textarea>
+                            </div>
+                            <button type="submit" class="form-submit">❤️ Enviar Mensagem</button>
+                        </form>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <p style="color: #e0d5ff; font-size: 1.125rem;">Obrigado por fazer parte de nossa história! 💕</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div id="modalTitle" style="font-size: 1.25rem; color: #d8b4fe; margin-bottom: 0.5rem;"></div>
+            <div id="modalDescription" style="color: #e0d5ff;"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>❤️ Nossa História</h3>
+                    <p>Uma celebração do amor eterno, escrito nas estrelas e vivido a cada dia.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#" onclick="navigateTo('home')">Início</a></li>
+                        <li><a href="#" onclick="navigateTo('timeline')">Nossa História</a></li>
+                        <li><a href="#" onclick="navigateTo('gallery')">Galeria</a></li>
+                        <li><a href="#" onclick="navigateTo('contact')">Contato</a></li>
+                    </ul>
+                </div>
+               
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Nossa História nas Estrelas. Feito com ❤️ para celebrar o amor infinito.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button class="player-button" id="playerButton" onclick="togglePlayer()">🎵</button>
+        <div class="player-expanded" id="playerExpanded" style="display: none;">
+            <div class="player-title">Música de Fundo</div>
+            <div class="player-subtitle">Nossa História - nossa musica</div>
+            
+            <div class="player-progress" onclick="seekAudio(event)">
+                <div class="player-progress-bar" id="progressBar"></div>
+            </div>
+            
+            <div class="player-time">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+            
+            <div class="player-controls">
+                <button onclick="toggleAudio()">
+                    <span id="playPauseIcon">▶️</span>
+                </button>
+                <div class="volume-control">
+                    <button onclick="toggleMute()">
+                        <span id="volumeIcon">🔊</span>
+                    </button>
+                    <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.01" value="0.3" onchange="setVolume(this.value)">
+                </div>
+                <button onclick="togglePlayer()">✕</button>
+            </div>
+            
+            <div class="player-status" id="playerStatus">⏸️ Pausado</div>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audio" src="audio/Thinkin Bout You - Frank Ocean (youtube).mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
